@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR-code</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <h1>تولید کننده کیوآرکد</h1>
+        <p>یک متن یا آدرس اینترنتی وارد کن تا کیوآرکدشو تولید کنم!</p>
+      </div>
+      <form action="#">
+        <input type="text" placeholder="یه متن یا آدرس وارد کن" />
+      </form>
+      <div class="qr-code hidden">
+        <img src="./image/download.png" />
+      </div>
+      <button type="button">تولید QR Code</button>
+    </div>
+    <script src="./app.js"></script>
+
+    <!-- Square BG -->
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</html>
